@@ -1,2 +1,3 @@
-# supremecomichat
-website supreme
+# supreme
+Supreme Comichat v2
+
