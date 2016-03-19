@@ -1,0 +1,79 @@
+[
+	{
+		"namaSiri":"pendar ratna",
+		"pelukis":"Amna Shark",
+		"penulis":"Amna Shark",
+		"genre":"MISTERI",
+		"sinopsis":"Intan datang menjalani latihan praktikal di Muzium Seri Bakawali. Namun, di sebalik kekayaan muzium ini dengan khazanah dan kesenian, ia tersembunyi satu kisah lain. Pendar bererti sinar, manakala Ratna bererti permata. Pendar Ratna, sebuah kisah yang menyentuh antara tulen dan palsu, antara benar dan salah, antara patut dan tak patut.",
+		"chapters":
+		[
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/pendar ratna/ep01/cover.jpg",
+					"komikUrl":"ep01",
+					"totalPanel": "18",
+					"id":"1"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/pendar ratna/ep02/cover.jpg",
+					"komikUrl":"ep02",
+					"totalPanel":"18",
+					"id":"2"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/pendar ratna/ep03/cover.jpg",
+					"komikUrl":"ep03",
+					"totalPanel":"18",
+					"id":"3"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/pendar ratna/ep04/cover.jpg",
+					"komikUrl":"ep04",
+					"totalPanel":"18",
+					"id":"4"
+				}
+		}
+		,
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/pendar ratna/ep05/cover.jpg",
+					"komikUrl":"ep05",
+					"totalPanel":"18",
+					"id":"5"
+				}
+		}
+		,
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/pendar ratna/ep06/cover.jpg",
+					"komikUrl":"ep06",
+					"totalPanel":"18",
+					"id":"6"
+				}
+		}
+		,
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/pendar ratna/ep07/cover.jpg",
+					"komikUrl":"ep07",
+					"totalPanel":"18",
+					"id":"7"
+				}
+		}
+		]
+		
+	}
+]

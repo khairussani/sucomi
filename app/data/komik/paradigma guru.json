@@ -1,0 +1,109 @@
+[
+	{
+		"namaSiri":"paradigma guru",
+		"pelukis":"Pokcik Fingernailz",
+		"penulis":"Pokcik Fingernailz",
+		"genre":"DRAMA",
+		"sinopsis":"Syasya merupakan seorang guru sekolah menengah yang biasa, sehinggalah pada suatu hari secara tiba-tiba, dia mendapat kebolehan untuk mendengar isi hati orang di sekelilingnya.",
+		"chapters":
+		[
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/paradigma guru/ep01/cover.jpg",
+					"komikUrl":"ep01",
+					"totalPanel": "19",
+					"id":"1"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/paradigma guru/ep02/cover.jpg",
+					"komikUrl":"ep02",
+					"totalPanel":"18",
+					"id":"2"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/paradigma guru/ep03/cover.jpg",
+					"komikUrl":"ep03",
+					"totalPanel":"18",
+					"id":"3"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/paradigma guru/ep04/cover.jpg",
+					"komikUrl":"ep04",
+					"totalPanel":"18",
+					"id":"4"
+				}
+		}
+		,
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/paradigma guru/ep05/cover.jpg",
+					"komikUrl":"ep05",
+					"totalPanel":"18",
+					"id":"5"
+				}
+		}
+		,
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/paradigma guru/ep06/cover.jpg",
+					"komikUrl":"ep06",
+					"totalPanel":"18",
+					"id":"6"
+				}
+		}
+		,
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/paradigma guru/ep07/cover.jpg",
+					"komikUrl":"ep07",
+					"totalPanel":"18",
+					"id":"7"
+				}
+		}
+		,
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/paradigma guru/ep08/cover.jpg",
+					"komikUrl":"ep08",
+					"totalPanel":"18",
+					"id":"8"
+				}
+		}
+		,
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/paradigma guru/ep09/cover.jpg",
+					"komikUrl":"ep09",
+					"totalPanel":"18",
+					"id":"9"
+				}
+		}
+		,
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/paradigma guru/ep10/cover.jpg",
+					"komikUrl":"ep10",
+					"totalPanel":"18",
+					"id":"10"
+				}
+		}
+		]
+		
+	}
+]

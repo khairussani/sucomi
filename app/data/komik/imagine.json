@@ -1,0 +1,69 @@
+[
+	{
+		"namaSiri":"imagine",
+		"pelukis":"Irfan Hilal",
+		"penulis":"Irfan Hilal",
+		"genre":"PENGEMBARAAN",
+		"sinopsis":"Mengisahkan seorang remaja iaitu Ray yang minat melukis. Pada suatu hari Ray telah diajak oleh kawannya iaitu Jo untuk pergi kesebuah pesta komik.Setelah Ray pulang dari pesta tersebut, sesuatu telah berlaku Ray telah termasuk kedalam dunia buku iaitu 'Imagine'. Daripada kejadian aneh itu, pengembaraan Ray telah bermula.",
+		"chapters":
+		[
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/imagine/ep01/cover.jpg",
+					"komikUrl":"ep01",
+					"totalPanel": "18",
+					"id":"1"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/imagine/ep02/cover.jpg",
+					"komikUrl":"ep02",
+					"totalPanel":"18",
+					"id":"2"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/imagine/ep03/cover.jpg",
+					"komikUrl":"ep03",
+					"totalPanel":"18",
+					"id":"3"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/imagine/ep04/cover.jpg",
+					"komikUrl":"ep04",
+					"totalPanel":"18",
+					"id":"4"
+				}
+		}
+		,
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/imagine/ep05/cover.jpg",
+					"komikUrl":"ep05",
+					"totalPanel":"18",
+					"id":"5"
+				}
+		}
+		,
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/imagine/ep06/cover.jpg",
+					"komikUrl":"ep06",
+					"totalPanel":"18",
+					"id":"6"
+				}
+		}
+		]
+		
+	}
+]

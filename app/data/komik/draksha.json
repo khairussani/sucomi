@@ -1,0 +1,40 @@
+[
+	{
+		"namaSiri":"draksha",
+		"pelukis":"Nurel & Harihtaroon",
+		"penulis":"Hasif Rayyan & Mar",
+		"genre":"FANTASI",
+		"sinopsis":"14 tahun berlalu sejak Azfar menghilangkan diri ke sana. Khairi dan Elyana berlayar ke Pulau Suria, menjejaki portal ke dunia Stergent, yang menjadi destinasi ayah mereka dan juga medan perang seisi 'Raksha'.",
+		"chapters":
+		[
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/draksha/ep01/cover.jpg",
+					"komikUrl":"ep01",
+					"totalPanel": "18",
+					"id":"1"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/draksha/ep02/cover.jpg",
+					"komikUrl":"ep02",
+					"totalPanel":"18",
+					"id":"2"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/draksha/ep03/cover.jpg",
+					"komikUrl":"ep03",
+					"totalPanel":"18",
+					"id":"3"
+				}
+		}
+		]
+		
+	}
+]

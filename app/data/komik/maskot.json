@@ -1,0 +1,59 @@
+[
+	{
+		"namaSiri":"maskot",
+		"pelukis":"Syafy",
+		"penulis":"Syafy",
+		"genre":"DRAMA",
+		"sinopsis":"Adam bekerja sebagai Maskot di Happy Park namun ketakutannya dengan perempuan telah menarik Ayra untuk membantunya. Di saat Ayra mula bekerja di situ, dia mula mendapati keluarga Adam mempunyai banyak rahsia yang lain terutama berkenaan sepupu Adam bernama Minho.",
+		"chapters":
+		[
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/maskot/ep01/cover.jpg",
+					"komikUrl":"ep01",
+					"totalPanel": "18",
+					"id":"1"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/maskot/ep02/cover.jpg",
+					"komikUrl":"ep02",
+					"totalPanel":"18",
+					"id":"2"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/maskot/ep03/cover.jpg",
+					"komikUrl":"ep03",
+					"totalPanel":"18",
+					"id":"3"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/maskot/ep04/cover.jpg",
+					"komikUrl":"ep04",
+					"totalPanel":"18",
+					"id":"4"
+				}
+		}
+		,
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/maskot/ep05/cover.jpg",
+					"komikUrl":"ep05",
+					"totalPanel":"18",
+					"id":"5"
+				}
+		}
+		]
+		
+	}
+]

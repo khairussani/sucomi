@@ -1,0 +1,49 @@
+[
+	{
+		"namaSiri":"apa",
+		"pelukis":"Inderawasih",
+		"penulis":"Inderawasih & NaHa",
+		"genre":"DRAMA",
+		"sinopsis":"Disebabkan wujud satu obsesi -untuk menyentuh hati dan membuka minda- sebuah agensi pengiklanan telah ditubuhkan. Selepas kematian pengasasnya, nasib agensi ini kini terletak pada waris yang entah layak.",
+		"chapters":
+		[
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/apa/ep01/cover.jpg",
+					"komikUrl":"ep01",
+					"totalPanel": "18",
+					"id":"1"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/apa/ep02/cover.jpg",
+					"komikUrl":"ep02",
+					"totalPanel":"18",
+					"id":"2"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/apa/ep03/cover.jpg",
+					"komikUrl":"ep03",
+					"totalPanel":"18",
+					"id":"3"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/apa/ep04/cover.jpg",
+					"komikUrl":"ep04",
+					"totalPanel":"18",
+					"id":"4"
+				}
+		}
+		]
+		
+	}
+]

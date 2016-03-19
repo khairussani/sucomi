@@ -1,0 +1,47 @@
+  <!-- Cover Photo-->
+  <div back-img="img/cover/cover-pengkarya.jpg" style="border-bottom: 5px solid #ABC937;">
+     <div class="container">
+        <div class="row padding-top-100 white">
+          <div class="container" >
+            <h1><b>PENGKARYA</b></h1>
+            <h4>Walaupun mereka pengkarya amatur, namun mereka bercita-cita besar!</h4>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!-- END Cover Photo-->
+  <!-- Pengkarya --> 
+  <div class="green-font">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 center">
+          <h1>14</h1>
+          <p>Pelukis</p>
+        </div>
+        <div class="col-md-6 center">
+          <h1>14</h1>
+          <p>Penulis</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Pengkarya --> 
+  
+  <!-- List Pengkarya -->
+<div class="soft-grey">
+  <div class="container">
+       <div class="col-md-12 " >
+          <h3><b>Aretis</b></h3>
+        </div>
+     <div class="col-md-3 col-sm-6 thumbnail-custom center" ng-repeat="aretis in aretis">
+          <a href="{{aretis.fbUrlPage}}" target="_blank">
+              <div class="icon" back-img="img/aretis/{{aretis.aretisId}}.jpg" >
+              </div>
+            </a>
+          <div>
+            <h4 class="black">{{aretis.aretisId}}</h4>  
+            <p class="soft-grey-font">{{aretis.peranan}}</p>
+          </div>
+      </div>   
+  </div>
+</div>

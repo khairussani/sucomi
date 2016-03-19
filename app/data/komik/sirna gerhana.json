@@ -1,0 +1,31 @@
+[
+	{
+		"namaSiri":"sirna gerhana",
+		"pelukis":"Ploless",
+		"penulis":"Khairul Exodus & Fingernailz",
+		"genre":"MISTERI",
+		"sinopsis":"Setelah berhenti sekolah, Rizqi mengikuti Rafi dan Aifa dalam pencarian pokok misteri bersama dengan kumpulan pengkaji agronomi di Kampung Gerhana. Tetapi, misteri sebenar yang mereka rungkai adalah tragedi terbesar penduduk asal kampung tersebut.",
+		"chapters":
+		[
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/sirna gerhana/ep01/cover.jpg",
+					"komikUrl":"ep01",
+					"totalPanel": "18",
+					"id":"1"
+				}
+		},
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/sirna gerhana/ep02/cover.jpg",
+					"komikUrl":"ep02",
+					"totalPanel":"18",
+					"id":"2"
+				}
+		}
+		]
+		
+	}
+]
