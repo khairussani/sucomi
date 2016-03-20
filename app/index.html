@@ -63,7 +63,7 @@
   </script>
   
   <!-- Header -->
-  <nav class="navbar navbar-fixed-top grey">
+  <nav class="navbar navbar-fixed-top dark-grey-background">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header logo">
@@ -77,11 +77,11 @@
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav white-capital navbar-right">
-          <li><a href="#/rumble">Rumble</a></li>
-          <li><a href="#/komik">Komik</a></li>
-          <li><a href="#/pengkarya">Pengkarya</a></li>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ng-controller="HeaderController">
+        <ul class="nav navbar-nav grey-capital navbar-right"  bs-active-link>
+          <li><a href="#/rumble">RUMBLE</a></li>
+          <li><a href="#/komik">KOMIK</a></li>
+          <li><a href="#/pengkarya">PENGKARYA</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -92,7 +92,7 @@
   </div>
 
   <!-- Start Footer -->
-  <div class="grey padding">
+  <div class="dark-grey-background padding">
     <div class="container">
       <div class="col-md-12">
         <div class="row footer">
@@ -111,14 +111,14 @@
               <i class="fa fa-facebook" style="font-size: 20px;"></i>
             </a>
           </div>
-          <div class="clear">
+          <div class="clear footer">
             Tiada bahagian daripada web ini boleh diterbitkan semula, diedarkan, atau dijualbeli dalam sebarang bentuk kaedah tanpa terlebih 
             dahulu mendapat kebenaran bertulis daripada pihak Supreme Comichat.
           </div> 
         </div>
       </div>
-      <div class="col-md-12 center">
-        <div class="clear padding-top">
+      <div class="col-md-12 center footer">
+        <div class="clear padding-top ">
             Dibuat di Malaysia oleh <a href="https://www.facebook.com/muhammad.azamazri" target="_blank" class="green-font">Azam Azri </a>dan <a href="https://www.facebook.com/ridhwan28" target="_blank" class="green-font" >Ridhwan Daud.</a>
         </div> 
         <p> © 2016 Supreme Comichat. </p>
@@ -127,18 +127,24 @@
   </div>
 
   <!-- END FOOTER -->
-
+    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/angular/angular.min.js"></script>
-    <script src="bower_components/angular-route/angular-route.min.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/MainController.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script> 
     <script src="bower_components/angulartics/dist/angulartics.min.js"></script>
     <script src="bower_components/angulartics-google-analytics/dist/angulartics-google-analytics.min.js"></script>
+    <!-- end library -->
+    
+    <!-- own javascript -->
+    <script src="js/app.js"></script>
+    <script src="js/MainController.js"></script>
+    <!-- end own javascript -->
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

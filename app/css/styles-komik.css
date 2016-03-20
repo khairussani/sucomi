@@ -52,7 +52,7 @@ header
 
 .rumble
 {
-    background-image: url('../../images/cover-rumble.png');
+    background-image: url('/../img/cover/cover-rumble.png');
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;

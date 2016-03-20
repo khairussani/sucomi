@@ -14,6 +14,15 @@ mainControllers.controller('MainController', ['$scope', '$http',
 
   }]);
 
+mainControllers.controller('HeaderController', ['$scope', '$location',
+  function($scope, $location) {
+    $scope.isActive = function (viewLocation) {
+        console.log($location.path()); 
+        return viewLocation === $location.path();
+    };
+
+  }]);
+
 mainControllers.controller('SiriListCtrl', ['$scope', '$http',
   function($scope, $http) {
     $http.get('data/komik/siri.json').success(function(data) {
@@ -66,7 +75,7 @@ mainControllers.controller('RumbleListCtrl', ['$scope', '$routeParams', '$http',
   function($scope, $routeParams, $http,$log) 
   {
     
-    $http.get('komikdata/rumble.json').success(function(data) 
+    $http.get('data/komik/rumble.json').success(function(data) 
     {
       $scope.siriRumble = data;
     });

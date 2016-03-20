@@ -1,13 +1,93 @@
-[{"namaSiri":"tamingsari","pelukis":"Aniff Zazali","penulis":"Aniff Zazali","genre":"AKSI","sinopsis":"Tuah dan Jebat telah membelot ketua mereka iaitu Raja, dengan mencuri 'coins' lagenda milik Raja, yang diberi nama Tamingsari. Dalam usaha Raja untuk merampas kembali Tamingsari, Tuah telah dibunuh oleh anak buah Raja. Berang dengan tindakan Raja, Jebat telah bersumpah untuk membalas dendam terhadap Raja, demi Tuah."},
-{"namaSiri":"imagine","pelukis":"Irfan Hilal","penulis":"Irfan Hilal","genre":"PENGEMBARAAN","sinopsis":"Mengisahkan seorang remaja iaitu Ray yang minat melukis. Pada suatu hari Ray telah diajak oleh kawannya iaitu Jo untuk pergi kesebuah pesta komik.Setelah Ray pulang dari pesta tersebut, sesuatu telah berlaku Ray telah termasuk kedalam dunia buku iaitu 'Imagine'. Daripada kejadian aneh itu, pengembaraan Ray telah bermula."},
-{"namaSiri":"pendar ratna","pelukis":"Amna Shark","penulis":"Amna Shark","genre":"MISTERI","sinopsis":"Intan datang menjalani latihan praktikal di Muzium Seri Bakawali. Namun, di sebalik kekayaan muzium ini dengan khazanah dan kesenian, ia tersembunyi satu kisah lain. Pendar bererti sinar, manakala Ratna bererti permata. Pendar Ratna, sebuah kisah yang menyentuh antara tulen dan palsu, antara benar dan salah, antara patut dan tak patut. "},
-{"namaSiri":"draksha","pelukis":"Nurel & Harihtaroon","penulis":"Hasif Rayyan & Mar","genre":"FANTASI","sinopsis":"14 tahun berlalu sejak Azfar menghilangkan diri ke sana. Khairi dan Elyana berlayar ke Pulau Suria, menjejaki portal ke dunia Stergent, yang menjadi destinasi ayah mereka dan juga medan perang seisi 'Raksha'."},
-{"namaSiri":"forgia","pelukis":"Sayuti","penulis":"Sayuti","genre":"POLITIK","sinopsis":"Raof menjadi 'Robin Hood' di sebuah bandar terasing bernama Raeyf, yakni salah sebuah provins di Forgia, selepas dibawa lari dari negeri asalnya. Dia juga bercita-cita untuk mengembara ke seluruh 'Forgia'. Pada masa yang sama, dia dihantui oleh seseorang yang bernama Noh dari masa silamnya. "},
-{"namaSiri":"paradigma guru","pelukis":"Pokcik Fingernailz","penulis":"Pokcik Fingernailz","genre":"DRAMA","sinopsis":"Syasya merupakan seorang guru sekolah menengah yang biasa, sehinggalah pada suatu hari secara tiba-tiba, dia mendapat kebolehan untuk mendengar isi hati orang di sekelilingnya."},
-{"namaSiri":"apa","pelukis":"Inderawasih","penulis":"Inderawasih & NaHa","genre":"DRAMA","sinopsis":"Disebabkan wujud satu obsesi -untuk menyentuh hati dan membuka minda- sebuah agensi pengiklanan telah ditubuhkan. Selepas kematian pengasasnya, nasib agensi ini kini terletak pada waris yang entah layak."},
-{"namaSiri":"gangster","pelukis":"Hanza","penulis":"Hanza","genre":"AKSI","sinopsis":"Pada pandangan pertama, semua orang akan menyangka Nazrin adalah seorang pelajar yang skema, sentiasa berkepit dengan buku. Namun, hanya segelintir yang tahu tentang masa silamnya yang teruk. Rahsia tentang dirinya mula terbongkar sedikit demi sedikit apabila dia bertemu semula dengan rakan lamanya dan mula menjejakkan kaki semula ke dalam dunia ‘gengster’. Namun ‘dunia’ ini adalah sama sekali berbeza dengan dunia ‘gengster’ yang kita ketahui."},
-{"namaSiri":"hidden princess","pelukis":"Mizi","penulis":"Anhaz","genre":"AKSI","sinopsis":"Mengisahkan tentang seorang puteri yang bernama Cempaka yang disembunyikan oleh ayahandanya untuk menaikkan adiknya iskandar sebagai bakal sultan. Dia bercita2 untuk menjadi pengawal diraja bagi melindungi adiknya dan keluar dari kongkongan ayahandanya.Adakah impian dia akan tercapai ?"},
-{"namaSiri":"york","pelukis":"Yasahiro Yoruki","penulis":"Yasahiro Yoruki","genre":"AKSI","sinopsis":"Ryou York cuba mengusahakan impian ayahnya untuk mencipta penjanakuasa Crystonium yang mampu memudahkan hidup orang ramai. Namun, para penggila kuasa cuba mengganggu bagi mengejar rahsia Crystonium. Adalah menjadi tugas Ryou untuk melindungi rahsia tersebut serta cuba mencapai impian ayahnya."},
-{"namaSiri":"sirna gerhana","pelukis":"Ploless","penulis":"Khairul Exodus & Fingernailz","genre":"MISTERI","sinopsis":"Setelah berhenti sekolah, Rizqi mengikuti Rafi dan Aifa dalam pencarian pokok misteri bersama dengan kumpulan pengkaji agronomi di Kampung Gerhana. Tetapi, misteri sebenar yang mereka rungkai adalah tragedi terbesar penduduk asal kampung tersebut."},
-{"namaSiri":"maskot","pelukis":"Syafy","penulis":"Syafy","genre":"DRAMA","sinopsis":"Adam bekerja sebagai Maskot di Happy Park namun ketakutannya dengan perempuan telah menarik Ayra untuk membantunya. Di saat Ayra mula bekerja di situ, dia mula mendapati keluarga Adam mempunyai banyak rahsia yang lain terutama berkenaan sepupu Adam bernama Minho."},
-{"namaSiri":"tuah","pelukis":"E-One","penulis":"E-One","genre":"AKSI","sinopsis":"Malakaraya, sebuah negara yang menjadi pusat perdagangan dunia telah diserang Lanoon. Negara tersebut telah menjadi kucar-kacir dan semuanya hampir hancur. Namun,pada suatu hari, 5 orang pahlawan, Tuah, Jebat, Lekiu, Lekir dan Kasturi telah berjaya menyelamatkan Malakaraya. 20 tahun telah berlalu sejak kejadian tersebut dan seorang budak telah datang ke Malakaraya untuk mencari sebuah sekolah seni bela diri. Ikuti kisah perjalanannya di dalam 'Tuah'!"}]
+[
+  {
+    "namaSiri": "tamingsari",
+    "pelukis": "Aniff Zazali",
+    "penulis": "Aniff Zazali",
+    "genre": "AKSI",
+    "sinopsis": "Tuah dan Jebat telah membelot ketua mereka iaitu Raja, dengan mencuri 'coins' lagenda milik Raja, yang diberi nama Tamingsari. Dalam usaha Raja untuk merampas kembali Tamingsari, Tuah telah dibunuh oleh anak buah Raja. Berang dengan tindakan Raja, Jebat telah bersumpah untuk membalas dendam terhadap Raja, demi Tuah."
+  },
+  {
+    "namaSiri": "imagine",
+    "pelukis": "Irfan Hilal",
+    "penulis": "Irfan Hilal",
+    "genre": "PENGEMBARAAN",
+    "sinopsis": "Mengisahkan seorang remaja iaitu Ray yang minat melukis. Pada suatu hari Ray telah diajak oleh kawannya iaitu Jo untuk pergi kesebuah pesta komik.Setelah Ray pulang dari pesta tersebut, sesuatu telah berlaku Ray telah termasuk kedalam dunia buku iaitu 'Imagine'. Daripada kejadian aneh itu, pengembaraan Ray telah bermula."
+  },
+  {
+    "namaSiri": "pendar ratna",
+    "pelukis": "Amna Shark",
+    "penulis": "Amna Shark",
+    "genre": "MISTERI",
+    "sinopsis": "Intan datang menjalani latihan praktikal di Muzium Seri Bakawali. Namun, di sebalik kekayaan muzium ini dengan khazanah dan kesenian, ia tersembunyi satu kisah lain. Pendar bererti sinar, manakala Ratna bererti permata. Pendar Ratna, sebuah kisah yang menyentuh antara tulen dan palsu, antara benar dan salah, antara patut dan tak patut. "
+  },
+  {
+    "namaSiri": "draksha",
+    "pelukis": "Nurel & Harihtaroon",
+    "penulis": "Hasif Rayyan & Mar",
+    "genre": "FANTASI",
+    "sinopsis": "14 tahun berlalu sejak Azfar menghilangkan diri ke sana. Khairi dan Elyana berlayar ke Pulau Suria, menjejaki portal ke dunia Stergent, yang menjadi destinasi ayah mereka dan juga medan perang seisi 'Raksha'."
+  },
+  {
+    "namaSiri": "forgia",
+    "pelukis": "Sayuti",
+    "penulis": "Sayuti",
+    "genre": "POLITIK",
+    "sinopsis": "Raof menjadi 'Robin Hood' di sebuah bandar terasing bernama Raeyf, yakni salah sebuah provins di Forgia, selepas dibawa lari dari negeri asalnya. Dia juga bercita-cita untuk mengembara ke seluruh 'Forgia'. Pada masa yang sama, dia dihantui oleh seseorang yang bernama Noh dari masa silamnya. "
+  },
+  {
+    "namaSiri": "paradigma guru",
+    "pelukis": "Pokcik Fingernailz",
+    "penulis": "Pokcik Fingernailz",
+    "genre": "DRAMA",
+    "sinopsis": "Syasya merupakan seorang guru sekolah menengah yang biasa, sehinggalah pada suatu hari secara tiba-tiba, dia mendapat kebolehan untuk mendengar isi hati orang di sekelilingnya."
+  },
+  {
+    "namaSiri": "apa",
+    "pelukis": "Inderawasih",
+    "penulis": "Inderawasih & NaHa",
+    "genre": "DRAMA",
+    "sinopsis": "Disebabkan wujud satu obsesi -untuk menyentuh hati dan membuka minda- sebuah agensi pengiklanan telah ditubuhkan. Selepas kematian pengasasnya, nasib agensi ini kini terletak pada waris yang entah layak."
+  },
+  {
+    "namaSiri": "gangster",
+    "pelukis": "Hanza",
+    "penulis": "Hanza",
+    "genre": "AKSI",
+    "sinopsis": "Pada pandangan pertama, semua orang akan menyangka Nazrin adalah seorang pelajar yang skema, sentiasa berkepit dengan buku. Namun, hanya segelintir yang tahu tentang masa silamnya yang teruk. Rahsia tentang dirinya mula terbongkar sedikit demi sedikit apabila dia bertemu semula dengan rakan lamanya dan mula menjejakkan kaki semula ke dalam dunia ‘gengster’. Namun ‘dunia’ ini adalah sama sekali berbeza dengan dunia ‘gengster’ yang kita ketahui."
+  },
+  {
+    "namaSiri": "hidden princess",
+    "pelukis": "Mizi",
+    "penulis": "Anhaz",
+    "genre": "AKSI",
+    "sinopsis": "Mengisahkan tentang seorang puteri yang bernama Cempaka yang disembunyikan oleh ayahandanya untuk menaikkan adiknya iskandar sebagai bakal sultan. Dia bercita2 untuk menjadi pengawal diraja bagi melindungi adiknya dan keluar dari kongkongan ayahandanya.Adakah impian dia akan tercapai ?"
+  },
+  {
+    "namaSiri": "york",
+    "pelukis": "Yasahiro Yoruki",
+    "penulis": "Yasahiro Yoruki",
+    "genre": "AKSI",
+    "sinopsis": "Ryou York cuba mengusahakan impian ayahnya untuk mencipta penjanakuasa Crystonium yang mampu memudahkan hidup orang ramai. Namun, para penggila kuasa cuba mengganggu bagi mengejar rahsia Crystonium. Adalah menjadi tugas Ryou untuk melindungi rahsia tersebut serta cuba mencapai impian ayahnya."
+  },
+  {
+    "namaSiri": "sirna gerhana",
+    "pelukis": "Ploless",
+    "penulis": "Khairul Exodus & Fingernailz",
+    "genre": "MISTERI",
+    "sinopsis": "Setelah berhenti sekolah, Rizqi mengikuti Rafi dan Aifa dalam pencarian pokok misteri bersama dengan kumpulan pengkaji agronomi di Kampung Gerhana. Tetapi, misteri sebenar yang mereka rungkai adalah tragedi terbesar penduduk asal kampung tersebut."
+  },
+  {
+    "namaSiri": "maskot",
+    "pelukis": "Syafy",
+    "penulis": "Syafy",
+    "genre": "DRAMA",
+    "sinopsis": "Adam bekerja sebagai Maskot di Happy Park namun ketakutannya dengan perempuan telah menarik Ayra untuk membantunya. Di saat Ayra mula bekerja di situ, dia mula mendapati keluarga Adam mempunyai banyak rahsia yang lain terutama berkenaan sepupu Adam bernama Minho."
+  },
+  {
+    "namaSiri": "tuah",
+    "pelukis": "E-One",
+    "penulis": "E-One",
+    "genre": "AKSI",
+    "sinopsis": "Malakaraya, sebuah negara yang menjadi pusat perdagangan dunia telah diserang Lanoon. Negara tersebut telah menjadi kucar-kacir dan semuanya hampir hancur. Namun,pada suatu hari, 5 orang pahlawan, Tuah, Jebat, Lekiu, Lekir dan Kasturi telah berjaya menyelamatkan Malakaraya. 20 tahun telah berlalu sejak kejadian tersebut dan seorang budak telah datang ke Malakaraya untuk mencari sebuah sekolah seni bela diri. Ikuti kisah perjalanannya di dalam 'Tuah'!"
+  }
+]

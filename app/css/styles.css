@@ -1,16 +1,35 @@
-.grey
+/* set font family and default background color  */
+body
+{
+	background-color: white;
+	font-family: Montserrat;
+}
+
+/* for background */
+.dark-grey-background
 {
 	background-color: #333;
 }
 
+.soft-grey-background
+{
+	background-color: #E6E6E6;
+}
+
+.green-background
+{
+	background-color: #ABC937;
+}
+
+/* for font */
 .grey-font
 {
 	color: #333;
 }
 
-.soft-grey
+.green-font
 {
-	background-color: #E6E6E6;
+	color: #ABC937;
 }
 
 .min-height
@@ -23,28 +42,31 @@
 	padding-top: 5px;
 }
 
-.navbar-fixed-top .navbar-nav>li>a
-{
-	color: white !important;
-	text-transform: uppercase;
-	background-color: #333333;
-}
-
-
-.navbar-fixed-top .navbar-nav>li>a:hover
+/* for navbar */
+.navbar-fixed-top .navbar-nav>li.active>a
 {
 	color: #ABC937 !important;
 	text-transform: uppercase;
 	background-color: #333333;
 }
 
-body
+.navbar-fixed-top .navbar-nav>li>a
 {
-	background-color: white;
-	font-family: Lato;
-	color: white;
+	color: #808080 !important;
+	text-transform: uppercase;
+	background-color: #333333;
 }
 
+.navbar-fixed-top .navbar-nav>li>a:hover
+{
+	color: white !important;
+	text-transform: uppercase;
+	background-color: #333333;
+}
+
+.navbar-default {
+    border-color: transparent;
+}
 
 .container > img
 {
@@ -52,17 +74,6 @@ body
 	border-style: solid;
 	border-width: 1px;
 }
-
-.green
-{
-	background-color: #ABC937;
-}
-
-.green-font
-{
-	color: #ABC937;
-}
-
 
 .cover
 {
@@ -100,7 +111,7 @@ body
 	text-decoration: none;
 }
 
-
+/* for carousel */
 .carousel-control.right
 {
 	background-image: none;
@@ -197,13 +208,6 @@ body
 	padding-top: 20px;
 }
 
-.color-999
-{
-	color:#999;
-	padding-left: 50px;
-	text-align: left;
-}
-
 .thumbnail-custom
 {
 	padding: 10px 10px;
@@ -288,9 +292,7 @@ a
 	text-decoration:none !important;
 }
 
-.navbar-default {
-    border-color: transparent;
-}
+
 
 .navbar
 {
@@ -308,7 +310,7 @@ iframe {
 
 h1
 {
-	font-size: 60px;
+	font-size: 50px;
 }
 
 .icon-bar
@@ -318,4 +320,91 @@ h1
 
 .navbar-toggle {
 	border: 1px solid white;
+}
+
+.hidden-long-text
+{
+   white-space: nowrap; 
+   width: 250px; 
+   overflow: hidden;
+   text-overflow: ellipsis;
+   margin: 10px auto;
+}
+
+.nama-siri
+{
+	color:#333;
+	text-transform: uppercase;
+}
+
+.nama-pelukis
+{
+	color:#B3B3B3;
+}
+
+h4
+{
+	font-size: 20px;
+}
+
+p
+{
+	font-size: 15px;
+}
+h4 + p
+{
+	color: #b3b3b3;
+}
+
+hr
+{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 3px solid #E6E6E6;
+}
+
+
+.footer
+{
+	color:#808080;
+}
+
+h1.h1-title
+{
+	color:white;
+}
+
+p.p-title
+{
+	color: #ABC937
+}
+
+.padding-title
+{
+	padding-bottom: 20px;
+}
+
+.btn-default
+{
+	color:#333333;
+	background-color: #ABC937;
+	border-color: #ABC937; 
+}
+
+.cover-top
+{
+	height: 342px;
+	margin-top: 50px;"
+}
+
+.padding-section
+{
+	padding-top:30px;
+	padding-bottom: 10px;
+}
+
+.padding-content
+{
+	padding-top: 20px;
 }
