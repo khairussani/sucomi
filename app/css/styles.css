@@ -408,3 +408,66 @@ p.p-title
 {
 	padding-top: 20px;
 }
+
+.padding-content-rakan
+{
+	padding-top: 40px;
+}
+
+.padding-rakan
+{
+	padding: 40px 0px;
+}
+
+.thumbnails-rakan
+{
+	width:176px;
+	height:176px;
+}
+
+.fa
+{
+	color:#333;
+	font-size: 20px;
+}
+
+.fa-padding
+{
+	padding: 0px 5px;
+}
+
+i.fa-green
+{
+	color:#ABC937;
+	font-size: 40px;
+}
+
+a.footer-link
+{
+	color:#b3b3b3;
+}
+
+
+.fb-footer
+{
+	padding-top: 30px;
+	color:#b3b3b3;
+	padding-bottom: 50px;
+}
+
+.fb-footer-fa
+{
+	padding-top: 10px;
+}
+
+.supreme-hakcipta
+{
+	color:#b3b3b3;
+}
+
+.footer-dibuat-di-malaysia
+{
+	background-color: #1A1A1A;
+	padding: 20px 0px;
+	color: white;
+}
