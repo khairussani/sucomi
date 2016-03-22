@@ -275,7 +275,13 @@ ul > a> li
 {
 	width:176px;
 	height:248px;
+	border: 3px solid #E6E6E6;
 }
+
+.thumbnails-komik:hover
+{
+    border: 3px solid #ABC937;
+}   
 
 .sinopsis
 {
@@ -347,6 +353,11 @@ h4
 	font-size: 20px;
 }
 
+h4.title
+{
+	font-weight: bold;
+}
+
 p
 {
 	font-size: 15px;
@@ -394,8 +405,9 @@ p.p-title
 
 .cover-top
 {
-	height: 342px;
-	margin-top: 50px;"
+	height: auto;
+	margin-top: 50px;
+	max-width: 100%;
 }
 
 .padding-section
@@ -424,6 +436,8 @@ p.p-title
 	width:176px;
 	height:176px;
 }
+
+
 
 .fa
 {
@@ -469,5 +483,65 @@ a.footer-link
 {
 	background-color: #1A1A1A;
 	padding: 20px 0px;
-	color: white;
+	color: #808080;
+}
+
+.aretis-name
+{
+	color: #B3B3B3;
+}
+
+.aretis-episod
+{
+	color: #333;
+	font-weight: bold;
+}
+
+.title-komik
+{
+	color: #b3b3b3;
+}
+
+.padding-title-komik
+{
+	padding-bottom: 10px;
+}
+
+.tab-selection-active
+{
+	color:#333;
+	border-bottom: 5px solid #333;
+}
+
+.tab-selection-inactive
+{
+	color:#b3b3b3;
+	border-bottom: 5px solid #b3b3b3;
+}
+
+.padding-tab-selection
+{
+	padding: 7px 0px;
+}
+
+.padding-section-keterangan
+{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.padding-section-komik
+{
+	padding-top: 20px;
+}
+
+.padding-siri
+{
+	padding-top: 30px;
+}
+
+.margin-end-komik
+{
+	margin-top: 50px;
+	margin-bottom: 40px;
 }

@@ -90,10 +90,10 @@
         app.directive('backImg', function(){    
             return function(scope, element, attrs){
 
-                attrs.backImg = attrs.backImg.replace(" ", "%20");
+                /*attrs.backImg = attrs.backImg.replace(" ", "%20");*/
                 var url = attrs.backImg;
                 element.css({
-                    'background-image': 'url(' + url +')',
+                    'background-image': 'url("' + url +'")',
                     'background-size' : 'cover',
                     'background-position' : 'center'
                 });
