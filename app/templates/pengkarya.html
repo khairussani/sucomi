@@ -14,20 +14,26 @@
   <!-- End Carousel -->
   
   <!-- List Pengkarya -->
-  <div class="soft-grey">
-    <div class="container">
-         <div class="col-md-12 " >
-            <h3><b>Aretis</b></h3>
-          </div>
-       <div class="col-md-3 col-sm-6 thumbnail-custom center" ng-repeat="aretis in aretis">
-            <a href="{{aretis.fbUrlPage}}" target="_blank">
-                <div class="icon" back-img="img/aretis/{{aretis.aretisId}}.jpg" >
+  <div class="padding-section">
+    <div class="soft-grey">
+      <div class="container">
+         <div class="col-md-3 col-sm-6 thumbnail-custom center padding-pengkarya" ng-repeat="aretis in aretis">
+              <a href="{{aretis.fbUrlPage}}" target="_blank">
+                  <img class="thumbnail-pengkarya" ng-src="img/aretis/{{aretis.aretisId}}.jpg" >
+                  </img>
+                </a>
+              <div>
+                <h4 class="black">{{aretis.aretisId}}</h4>  
+                <p class="soft-grey-font">{{aretis.peranan}}</p>
+                <div>
+                  <div>
+                    <a href="{{aretis.fbUrlPage}}"><i class="fa fa-facebook-official fa-padding"></i></a>
+                    <a href="{{mainData.rakan.igUrl}}"><i class="fa fa-instagram fa-padding"></i></a>
+                  </div>
                 </div>
-              </a>
-            <div>
-              <h4 class="black">{{aretis.aretisId}}</h4>  
-              <p class="soft-grey-font">{{aretis.peranan}}</p>
-            </div>
-        </div>   
+              </div>
+          </div>   
+      </div>
     </div>
   </div>
+  

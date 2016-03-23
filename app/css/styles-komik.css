@@ -115,3 +115,22 @@ a
     background-size: cover;
     border-radius: 175px;
 } 
+
+
+.thumbnail-pengkarya
+{
+    height: 175px;
+    width: 175px;
+    border-radius: 10px;
+    border: 3px solid #E6E6E6;
+}
+
+.thumbnail-pengkarya:hover
+{
+    border: 3px solid #ABC937;
+}
+
+.padding-pengkarya
+{
+    padding: 25px 0px;
+}
