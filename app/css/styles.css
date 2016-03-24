@@ -533,6 +533,11 @@ a.footer-link
 	padding-top: 20px;
 }
 
+.padding-section-rumble
+{
+	padding-top: 50px;
+}
+
 .padding-siri
 {
 	padding-top: 30px;
@@ -542,4 +547,24 @@ a.footer-link
 {
 	margin-top: 50px;
 	margin-bottom: 40px;
+}
+
+a.rumble-href
+{
+	color:#b3b3b3;
+}
+
+a.rumble-href:hover
+{
+	color:#ABC937;
+}
+
+.tab-selection-active > a.rumble-href
+{
+	color:#333;
+}
+
+.tab-selection-active > a.rumble-href:hover
+{
+	color:#ABC937;
 }

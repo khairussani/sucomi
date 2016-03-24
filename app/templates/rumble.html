@@ -1,37 +1,85 @@
    <!-- Cover Photo-->
-  <header class="rumble">
-    <div class="container">
-      <div class="row white" style="min-height: 342px;">
-        <div class="container">
-        </div>
+  <img src="img/cover/cover-tiada.png" class="cover-top img-responsive"></img>
+  <!-- END Cover Photo-->
+
+  <!-- Carousel -->
+  <div class="container-fluid dark-grey-background">
+    <div class="col-md-4 col-md-offset-4">
+      <div class="row  text-center">
+        <h1 class="text-uppercase h1-title">Rumble</h1>
+        <p class="text-uppercase p-title">Acara pertempuran komik oneshot.</p>
       </div>
     </div>
-  </header>
-  <!-- END Cover Photo-->
-  <div class="container black">
-    <div class="col-md-12 " >
-      <h3>Komik Oneshot</h3>
-    </div>
-    <div class="center">
-      <div class="col-md-3 col-sm-6 text-center" ng-repeat="siri in siriRumble">
-        <a href="#/rumble/oneshot/{{siri.namaSiri}}"><img class="thumbnails-komik" ng-src="/komik/oneshot/{{siri.namaSiri}}/cover.jpg"></a>
-        <h4 class="nama-siri hidden-long-text"><b>{{siri.namaSiri}}</b></h4>
-        <div class="nama-pelukis">
-         <p>{{siri.pelukis}}</p>
+  </div>
+  <!-- End Carousel -->
+
+  <!-- Tab Selection -->
+  <div class="container-fluid soft-grey-background">
+    <div class="container text-center">
+      <div class="col-md-4">
+        <div class="col-md-10 col-md-offset-1 tab-selection-inactive padding-tab-selection">
+          <a class="rumble-href" href="#/rumble-keterangan">
+            <h4 class="text-uppercase">
+                Keterangan
+            </h4>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="col-md-10 col-md-offset-1 tab-selection-active padding-tab-selection">
+          <a class="rumble-href" href="#/rumble-komik">
+            <h4 class="text-uppercase">
+                Komik
+            </h4>
+          </a>  
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="col-md-10 col-md-offset-1 tab-selection-inactive padding-tab-selection">
+          <a class="rumble-href" href="#/rumble-undi">
+            <h4 class="text-uppercase">
+                Undi
+            </h4>
+          </a>
         </div>
       </div>
     </div>
   </div>
+  <!-- End Tab Selection -->
 
-  <!-- <div class="" style="padding:20px 0px; background-color: #E6E6E6">
+  <!-- Content -->
+  <div class="padding-section-rumble">
     <div class="container">
-      <div class="row" style="background-color: #E6E6E6">
-       <div class="col-md-12" >
-          <h3>Undi</h3>
-        </div>
-        <div class="col-md-12 center">
-          <iframe src="https://docs.google.com/forms/d/1B6BXQ9cc3CBZ4Ngy4hYvEu2CPvKotRRG6nlg32ANzXU/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      <div class="col-md-12 text-center" >
+        <p class="text-uppercase title-komik padding-title-komik">Komik Oneshot </p>
+      </div>
+      <div class="center">
+        <div class="col-md-3 col-sm-6 padding-siri" ng-repeat="siri in siriRumble">
+          <a href="#/rumble/oneshot/{{siri.namaSiri}}"><img class="thumbnails-komik" ng-src="/komik/oneshot/{{siri.namaSiri}}/cover.jpg"></a>
+          <h4 class="nama-siri">{{siri.namaSiri}}</h4>
+          <div class="nama-pelukis">
+           <p>{{siri.pelukis}}</p>
+          </div>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
+  <!-- End Content -->
+  <hr class="margin-end-komik">
+
+  <!-- End Rumble -->
+
+<!--   <div class="container black">
+  <div class="col-md-12 " >
+    <h3>Komik Oneshot</h3>
+  </div>
+  <div class="center">
+    <div class="col-md-3 col-sm-6 text-center" ng-repeat="siri in siriRumble">
+      <a href="#/rumble/oneshot/{{siri.namaSiri}}"><img class="thumbnails-komik" ng-src="/komik/oneshot/{{siri.namaSiri}}/cover.jpg"></a>
+      <h4 class="nama-siri hidden-long-text"><b>{{siri.namaSiri}}</b></h4>
+      <div class="nama-pelukis">
+       <p>{{siri.pelukis}}</p>
+      </div>
+    </div>
+  </div>
+</div> -->
