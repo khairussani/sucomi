@@ -1,0 +1,81 @@
+   <!-- Cover Photo-->
+  <img src="img/cover/cover-tiada.png" class="cover-top img-responsive"></img>
+  <!-- END Cover Photo-->
+  
+  <!-- Carousel -->
+  <div class="container-fluid dark-grey-background">
+    <div class="col-md-4 col-md-offset-4">
+      <div class="row  text-center">
+        <h1 class="text-uppercase h1-title">Komik</h1>
+        <p class="text-uppercase p-title">Komik-komik eksklusif dari supreme.</p>
+      </div>
+    </div>
+  </div>
+  <!-- End Carousel -->
+
+  <!-- Tab Selection -->
+  <div class="container-fluid soft-grey-background">
+    <div class="container text-center">
+      <div class="col-md-4">
+        <div class="col-md-10 col-md-offset-1 tab-selection-active padding-tab-selection">
+          <a href="#/komik/rumblers">
+            <h4 class="text-uppercase">
+                Rumblers
+            </h4>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="col-md-10 col-md-offset-1 tab-selection-inactive padding-tab-selection">
+          <a href="#/komik/aretis">
+            <h4 class="text-uppercase">
+                Aretis
+            </h4>
+          </a>  
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="col-md-10 col-md-offset-1 tab-selection-inactive padding-tab-selection">
+          <a href="#/komik/lejonary">
+            <h4 class="text-uppercase">
+              Lejonary
+            </h4>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Tab Selection -->
+  
+  <!-- Keterangan -->
+  <div class="padding-section-keterangan">
+    <div class="container">
+      <div class="col-md-12 text-center">
+        <p class="text-uppercase title-komik">Keterangan</p>
+        <p class="text-left">Aretis adalah pangkat kepada pengkarya yang mempunyai komik siri di dalam Supreme. Namun, pangkat ini hanya boleh didapati setelah komik mereka berjaya melepasi acara Supreme Rumble. Misi Aretis adalah menghasilkan siri yang berkualiti secara berterusan disamping mencari peluang di dalam penerbitan.</p>
+      </div>
+    </div>
+  </div>
+  <!-- End Keterangan -->
+  <hr>
+  <!-- Content -->
+  <div class="padding-section-komik">
+    <div class="container">
+      <div class="col-md-12 text-center" >
+        <p class="text-uppercase title-komik padding-title-komik">Komik Rumblers</p>
+      </div>
+      <div class="center">
+        <div class="col-md-3 col-sm-6 padding-siri" ng-repeat="siri in siriRumble">
+          <a href="#/komik/oneshot/{{siri.namaSiri}}"><img class="thumbnails-komik" ng-src="/komik/oneshot/{{siri.namaSiri}}/cover.jpg"></a>
+          <h4 class="nama-siri">{{siri.namaSiri}}</h4>
+          <div class="nama-pelukis">
+           <p>{{siri.pelukis}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Content -->
+  <hr class="margin-end-komik">
+
+  <!-- End Komik -->

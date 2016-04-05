@@ -36,7 +36,7 @@ mainControllers.controller('SiriDetailCtrl', ['$scope', '$routeParams', '$http',
   	
     $http.get('/data/komik/' + $routeParams.namaSiri + '.json').success(function(data) 
     {
-      $scope.siriDetail = data;
+      $scope.siriDetail = data[0];
     });
 
   }]);

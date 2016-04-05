@@ -28,11 +28,17 @@
                 templateUrl:"templates/tim.html",
                 controller:"EditorListController"
             })
-            .when("/komik",
+            .when("/komik/aretis",
             {
                 title: 'Komik',
-                templateUrl:"templates/komik.html",
+                templateUrl:"templates/list-komik-aretis.html",
                 controller:"SiriListCtrl"
+            })
+            .when("/komik/rumblers",
+            {
+                title: 'Komik',
+                templateUrl:"templates/list-komik-rumblers.html",
+                controller:"RumbleListCtrl"
             })
             .when("/rumble",
             {
@@ -73,7 +79,10 @@
                 templateUrl:"templates/faq-rumble.html",
                 controller:"MainController"
             })
-            .otherwise({redirectTo:"/main"});
+            .otherwise(
+            {
+                redirectTo:"main"
+            });
 
             /*$locationProvider.html5Mode(true);*/
     });
@@ -97,6 +106,17 @@
                     'background-size' : 'cover',
                     'background-position' : 'center'
                 });
+            };
+        });
+
+        app.directive("disableRightClick", function () {
+            return {
+                restict: 'A',
+                link: function (scope, el) {
+                    el.bind("contextmenu", function (e) {
+                        e.preventDefault();
+                    });
+                }
             };
         });
 
