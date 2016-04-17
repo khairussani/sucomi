@@ -4,7 +4,8 @@
         "ngRoute",
         "mainControllers",
         'angulartics', 
-        'angulartics.google.analytics'
+        'angulartics.google.analytics',
+        'firebase'
         ]);
     
     app.config(function($routeProvider,$locationProvider,$analyticsProvider)
@@ -14,7 +15,7 @@
             {
                 title: 'Home',
                 templateUrl:"templates/main.html",
-                controller:"MainController"
+                controller:"FireController"
             })
             .when("/mengenai",
             {

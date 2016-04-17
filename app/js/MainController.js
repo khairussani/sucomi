@@ -36,7 +36,7 @@ mainControllers.controller('SiriDetailCtrl', ['$scope', '$routeParams', '$http',
   	
     $http.get('/data/komik/' + $routeParams.namaSiri + '.json').success(function(data) 
     {
-      $scope.siriDetail = data[0];
+      $scope.siriDetail = data;
     });
 
   }]);
@@ -101,5 +101,33 @@ mainControllers.controller('RumbleDetailCtrl', ['$scope', '$routeParams', '$http
     };
 
   }]);
+
+
+mainControllers.controller("FireController", ["$scope", "$firebaseArray",
+  function($scope, $firebaseArray) {
+    //Code here
+    var ref = new Firebase("https://j4kn6voqvw6.firebaseio-demo.com/");
+    $scope.messages = $firebaseArray(ref);
+
+    //ADD MESSAGE METHOD
+    $scope.addMessage = function(e) {
+
+      //LISTEN FOR RETURN KEY
+      if (e.keyCode === 13 && $scope.msg) {
+        //ALLOW CUSTOM OR ANONYMOUS USER NAMES
+        var name = $scope.name || "anonymous";
+
+        //ADD TO FIREBASE
+         $firebaseArray(ref).$add({
+          from: name,
+          body: $scope.msg
+        });
+
+        //RESET MESSAGE
+        $scope.msg = "";
+      }
+    }
+  }
+]);
 
 
