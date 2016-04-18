@@ -1,0 +1,141 @@
+  
+<div ng-repeat="siriDetail in siriDetail">
+  <img class="img-responsive cover-top" zng-src="komik/siri/{{siriDetail.namaSiri}}/other/cover-photo.jpg" src="img/cover/cover-tiada.png">
+  
+  <!-- Carousel -->
+  <div class="container-fluid dark-grey-background">
+    <div class="col-md-4 col-md-offset-4">
+      <div class="row text-center">
+        <h1 class="text-uppercase h1-title">{{siriDetail.namaSiri}}</h1>
+        <p class="text-uppercase p-title">{{siriDetail.genre}}</p>
+      </div>
+    </div>
+  </div>
+  <!-- End Carousel -->
+
+  <!-- Tab Selection -->
+  <div class="container-fluid soft-grey-background">
+    <div class="container text-center">
+      <div class="col-md-4">
+        <div class="col-md-10 col-md-offset-1 tab-selection-inactive padding-tab-selection" ng-click="komikRumbler()">
+          <h4 class="text-uppercase">
+              Keterangan
+          </h4>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="col-md-10 col-md-offset-1 tab-selection-active padding-tab-selection">
+          <a href="#/komik/aretis">
+            <h4 class="text-uppercase">
+                Komik
+            </h4>
+          </a>  
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="col-md-10 col-md-offset-1 tab-selection-inactive padding-tab-selection">
+          <a href="#/komik/lejonary">
+            <h4 class="text-uppercase">
+              Komen
+            </h4>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Tab Selection -->
+  
+  <!-- Siri Latest-->
+  <div class="padding-section">
+    <div class="container">
+      <div class="row comic-title text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h4 class="title">Siri</h4>
+              <p>Tarikh akhir kemaskini : 18/04/2016</p>
+            </div>
+          </div>
+          <div class="row padding-content">
+            <div class="col-md-3 col-sm-6 padding-siri" ng-repeat="chapter in siriDetail.chapters">
+              <a href="#/komik/siri/{{siriDetail.namaSiri}}/{{chapter.episod.komikUrl}}/{{chapter.episod.totalPanel}}">
+                <img class="thumbnails-komik" ng-src="{{chapter.episod.imageUrl}}">
+              </a>
+              <div>
+                <h4>Episod {{chapter.episod.id}}</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Siri Latest-->
+
+  <!-- Pengkarya-->
+  <!-- <div class="soft-grey comic-title">
+   <div class="container">
+     <div class="row black">
+       <h1><b>Pengkarya<b></h1>
+     </div>
+   </div>
+     <div class="container">
+       <div class="col-md-3 col-sm-6 thumbnail-custom center">
+          <a href="">
+            <div class="icon" back-img="komik/siri/{{siriDetail.namaSiri}}/other/dp.jpg" >
+            <div class="icon" back-img="img/aretis/{{siriDetail.pelukis}}.jpg" >
+            </div>
+          </a>
+          <div>
+            <div class="black" style="padding-top: 20px"><b>{{siriDetail.pelukis}}</b></div> 
+            <p class="soft-grey-font" style="padding-top: 5px">Pelukis</p> 
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 thumbnail-custom center">
+          <a href="">
+            <div class="icon" back-img="komik/siri/{{siriDetail.namaSiri}}/other/dp.jpg" >
+            <div class="icon" back-img="img/aretis/{{siriDetail.penulis}}.jpg" >
+            </div>
+          </a>
+          <div>
+            <div class="black" style="padding-top: 20px"><b>{{siriDetail.penulis}}</b></div> 
+            <p class="soft-grey-font" style="padding-top: 5px">Penulis</p> 
+          </div>
+        </div>
+      </div>
+  </div> -->
+  <!-- END Pengkarya-->
+  
+  <!-- Siri -->
+  <!-- <div class="padding-bottom">
+    <div class="container">
+  
+      <div class="row comic-title">
+        <h1 class="black">
+        Siri
+        </h1>
+      </div>
+  
+      <div class="row black">
+        <div class="col-md-3 col-sm-6 thumbnail-custom center" ng-repeat="chapter in siriDetail.chapters">
+          <a href="#/komik/siri/{{siriDetail.namaSiri}}/{{chapter.episod.komikUrl}}/{{chapter.episod.totalPanel}}">
+            <img ng-src="{{chapter.episod.imageUrl}}" class="thumbnails-komik">
+          </a>
+            <p style="padding-top: 10px;">Episod {{chapter.episod.id}}</p>
+          <div> 
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-md-offset-4 grey-font center">Komen</div>
+        <hr>
+        <div class="col-md-6 col-md-offset-3">
+          <div class="fb-comments"></div>
+        </div>
+  
+    </div>
+  </div> -->
+
+
+</div>
+  

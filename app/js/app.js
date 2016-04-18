@@ -14,14 +14,12 @@
             .when("/main",
             {
                 title: 'Home',
-                templateUrl:"templates/main.html",
-                controller:"FireController"
+                templateUrl:"templates/main.html"
             })
             .when("/mengenai",
             {
                 title: 'Mengenai',
-                templateUrl:"templates/mengenai.html",
-                controller:"MainController"
+                templateUrl:"templates/mengenai.html"
             })
             .when("/tim",
             {
@@ -33,13 +31,18 @@
             {
                 title: 'Komik',
                 templateUrl:"templates/list-komik-aretis.html",
-                controller:"SiriListCtrl"
+                controller:"KomikAretisListCtrl"
+            })
+            .when('/komik/siri/:namaSiri', {
+                title: 'Comichat',
+                templateUrl: 'templates/komikAretis.html',
+                controller: 'KomikAretisDetailCtrl'
             })
             .when("/komik/rumblers",
             {
                 title: 'Komik',
                 templateUrl:"templates/list-komik-rumblers.html",
-                controller:"RumbleListCtrl"
+                controller:"KomikRumbleListCtrl"
             })
             .when("/rumble",
             {
@@ -51,11 +54,6 @@
                 title: 'Comichat',
                 templateUrl: 'templates/rumbleDetails.html',
                 controller: 'RumbleDetailCtrl'
-            })
-            .when('/komik/siri/:namaSiri', {
-                title: 'Comichat',
-                templateUrl: 'templates/siriDetails.html',
-                controller: 'SiriDetailCtrl'
             })
             .when('/komik/siri/:namaSiri/:episod/:totalPanel', {
                 title: 'Comichat',
@@ -71,14 +69,12 @@
             .when("/faq-umum",
             {
                 title: 'Soalan Lazim Umum',
-                templateUrl:"templates/faq-umum.html",
-                controller:"MainController"
+                templateUrl:"templates/faq-umum.html"
             })
             .when("/faq-rumble",
             {
                 title: 'Soalan Lazim Rumble',
-                templateUrl:"templates/faq-rumble.html",
-                controller:"MainController"
+                templateUrl:"templates/faq-rumble.html"
             })
             .otherwise(
             {

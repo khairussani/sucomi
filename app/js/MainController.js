@@ -23,14 +23,14 @@ mainControllers.controller('HeaderController', ['$scope', '$location',
 
   }]);
 
-mainControllers.controller('SiriListCtrl', ['$scope', '$http',
+mainControllers.controller('KomikAretisListCtrl', ['$scope', '$http',
   function($scope, $http) {
     $http.get('data/komik/siri.json').success(function(data) {
       $scope.siri = data;
     });
   }]);
 
-mainControllers.controller('SiriDetailCtrl', ['$scope', '$routeParams', '$http','$log',
+mainControllers.controller('KomikAretisDetailCtrl', ['$scope', '$routeParams', '$http','$log',
   function($scope, $routeParams, $http,$log) 
   {
   	
@@ -72,6 +72,17 @@ mainControllers.controller('EditorListController', ['$scope', '$http','$log',
   }]);
 
 mainControllers.controller('RumbleListCtrl', ['$scope', '$routeParams', '$http','$log',
+  function($scope, $routeParams, $http,$log) 
+  {
+    
+    $http.get('data/komik/rumble.json').success(function(data) 
+    {
+      $scope.siriRumble = data;
+    });
+
+  }]);
+
+mainControllers.controller('KomikRumbleListCtrl', ['$scope', '$routeParams', '$http','$log',
   function($scope, $routeParams, $http,$log) 
   {
     
