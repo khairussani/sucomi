@@ -519,6 +519,13 @@ a.footer-link
 .tab-selection-inactive
 {
 	color:#b3b3b3;
+	border-bottom: 5px solid #d3d3d3;
+	cursor: pointer;
+}
+
+.tab-selection-inactive:hover
+{
+	color:#b3b3b3;
 	border-bottom: 5px solid #b3b3b3;
 }
 

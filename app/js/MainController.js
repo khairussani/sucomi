@@ -23,11 +23,16 @@ mainControllers.controller('HeaderController', ['$scope', '$location',
 
   }]);
 
-mainControllers.controller('KomikAretisListCtrl', ['$scope', '$http',
-  function($scope, $http) {
+mainControllers.controller('KomikAretisListCtrl', ['$scope', '$http','$location',
+  function($scope, $http,$location) {
     $http.get('data/komik/siri.json').success(function(data) {
       $scope.siri = data;
     });
+
+    $scope.go = function ( path ) {
+      $location.path( path );
+    };
+
   }]);
 
 mainControllers.controller('KomikAretisDetailCtrl', ['$scope', '$routeParams', '$http','$log',
@@ -80,16 +85,24 @@ mainControllers.controller('RumbleListCtrl', ['$scope', '$routeParams', '$http',
       $scope.siriRumble = data;
     });
 
+    $scope.go = function ( path ) {
+      $location.path( path );
+    };
+
   }]);
 
-mainControllers.controller('KomikRumbleListCtrl', ['$scope', '$routeParams', '$http','$log',
-  function($scope, $routeParams, $http,$log) 
+mainControllers.controller('KomikRumbleListCtrl', ['$scope', '$routeParams', '$http','$log','$location',
+  function($scope, $routeParams, $http,$log,$location) 
   {
     
     $http.get('data/komik/rumble.json').success(function(data) 
     {
       $scope.siriRumble = data;
     });
+
+     $scope.go = function ( path ) {
+      $location.path( path );
+    };
 
   }]);
 
