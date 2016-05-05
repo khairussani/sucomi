@@ -39,12 +39,12 @@
           
           <div class="row padding-content">
 
-            <div class="col-md-3 col-sm-6">
-              <a href="/komik/siri/apa"><img class="thumbnails-komik" src="komik/siri/apa/ep04/cover.jpg"></a>
-              <h4 >APA</h4>
+            <div class="col-md-3 col-sm-6" ng-repeat="terkini in komikTerkini.terkini">
+              <a href="/komik/siri/{{terkini.siri}}"><img class="thumbnails-komik" src="komik/siri/{{terkini.siri}}/ep{{terkini.episod}}/cover.jpg"></a>
+              <h4 class="text-uppercase">{{terkini.siri}}</h4>
               <div>
-                <p class="aretis-episod">Episod 04</p>
-                <p class="aretis-name">Inderawasih</p>
+                <p class="aretis-episod">Episod {{terkini.episod}}</p>
+                <p class="aretis-name">{{terkini.pengkarya}}</p>
                 
               </div>
             </div>
@@ -74,12 +74,13 @@
           
           <div class="row padding-content">
 
-            <div class="col-md-3 col-sm-6">
-              <a href="/komik/siri/gangster"><img class="thumbnails-komik" src="komik/siri/gangster/ep12/cover.jpg"></a>
-                <h4 class="text-uppercase">gangster</h4>
-                <div>
-                  <p class="aretis-name">Hanza</p>
-                </div>
+            <div class="col-md-3 col-sm-6" ng-repeat="popular in komikPopular.popular">
+              <a href="/komik/siri/{{popular.siri}}"><img class="thumbnails-komik" src="komik/siri/{{popular.siri}}/ep01/cover.jpg"></a>
+              <h4 class="text-uppercase">{{popular.siri}}</h4>
+              <div>
+                <p class="aretis-name">{{popular.pengkarya}}</p>
+                
+              </div>
             </div>
 
           </div>
