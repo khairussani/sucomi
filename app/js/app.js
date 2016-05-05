@@ -81,7 +81,7 @@
                 redirectTo:"main"
             });
 
-            /*$locationProvider.html5Mode(true);*/
+            $locationProvider.html5Mode(true);
     });
 
         app.run(['$rootScope', function($rootScope) {

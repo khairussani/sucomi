@@ -63,6 +63,16 @@
 					"id":"6"
 				}
 		}
+		,
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/tamingsari/ep07/cover.jpg",
+					"komikUrl":"ep07",
+					"totalPanel":"18",
+					"id":"7"
+				}
+		}
 		]
 		
 	}

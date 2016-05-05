@@ -44,6 +44,16 @@
 					"id":"4"
 				}
 		}
+		,
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/tuah/ep05/cover.jpg",
+					"komikUrl":"ep05",
+					"totalPanel":"18",
+					"id":"5"
+				}
+		}
 		]
 		
 	}

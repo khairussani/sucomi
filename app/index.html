@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="comichat">
   <head>
-    <!-- <base href="/" /> -->
+    <base href="/" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="og:title" content="Supreme | Web Komik Malaysia"/>
+    <meta name="og:title" content="Sucomi | Web Komik Malaysia"/>
     <meta name="og:keyword" content="comichat, supreme, komik, webkomik, illustration, malaysia , sucomi"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title ng-bind="'Supreme | ' + $root.title"></title>
+    <title ng-bind="'Sucomi | ' + $root.title"></title>
 
     <!-- Bootstrap -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -73,15 +73,15 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="#/main"><img alt="Brand" src="img/sucomi-logo.png"></a>
+        <a href="/main"><img alt="Brand" src="img/sucomi-logo.png"></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ng-controller="HeaderController">
         <ul class="nav navbar-nav grey-capital navbar-right"  bs-active-link>
-          <li><a href="#/rumble">RUMBLE</a></li>
-          <li><a href="#/komik/aretis">KOMIK</a></li>
-          <li><a href="#/pengkarya">PENGKARYA</a></li>
+          <li><a href="/rumble">RUMBLE</a></li>
+          <li><a href="/komik/aretis">KOMIK</a></li>
+          <li><a href="/pengkarya">PENGKARYA</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -97,12 +97,12 @@
       <div class="col-md-12">
         <div class="row">
           <div class="col-md-2 col-md-offset-4 text-center">
-            <a class="footer-link text-uppercase" href="#/mengenai">
+            <a class="footer-link text-uppercase" href="/mengenai">
               Mengenai
             </a>
           </div>
           <div class="col-md-2 text-center">
-            <a class="footer-link text-uppercase" href="#/faq-umum">
+            <a class="footer-link text-uppercase" href="/faq-umum">
             Soalan Lazim
             </a>    
           </div>
