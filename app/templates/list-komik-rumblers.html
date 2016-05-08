@@ -60,10 +60,11 @@
       </div>
       <div class="center">
         <div class="col-md-3 col-sm-6 padding-siri" ng-repeat="siri in siriRumble">
-          <a href="#/komik/oneshot/{{siri.namaSiri}}"><img class="thumbnails-komik" ng-src="/komik/oneshot/{{siri.namaSiri}}/cover.jpg"></a>
-          <h4 class="nama-siri">{{siri.namaSiri}}</h4>
+          <a href="#/komik/oneshot/{{siri.namaFolder}}"><img class="thumbnails-komik" ng-src="/komik/oneshot/{{siri.namaFolder}}/cover.jpg"></a>
+          <h4 class="nama-siri hidden-long-text">{{siri.namaSiri}}</h4>
           <div class="nama-pelukis">
-           <p>{{siri.pelukis}}</p>
+           <p>Pelukis : {{siri.namaPelukis}}</p>
+           <p>Penulis :{{siri.namaPenulis}}</p>
           </div>
         </div>
       </div>

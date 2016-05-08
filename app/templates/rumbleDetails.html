@@ -1,11 +1,16 @@
-  <div class="top">
+  <div class="top dark-grey-background">
+      <div class="container-fluid text-center">
+        <div class="row">
+            <p class=menatal-static>Tips : Baca dari kiri ke kanan dan tatal kebawah untuk mukasurat seterusnya. Selamat membaca!</p>
+        </div>
+      </div>
       <div class="container">
         <div class="row">
 
-          <div class="col-md-10 col-md-offset-1" style="padding-top: 20px">
+          <div class="col-md-10 col-md-offset-1" style="padding-top: 70px">
             <div class="padding-chapter">
               <div class="padding-komik">
-                <img class="img-responsive" ng-src="komik/oneshot/{{namaSiri}}/cover.jpg" alt="">
+                <img class="img-responsive" ng-src="komik/oneshot/{{namaFolder}}/cover.jpg" alt="">
               </div>
             </div>
           </div>   
@@ -13,7 +18,7 @@
           <div class="col-md-10 col-md-offset-1 center" ng-repeat="n in range(totalPanel)">   
             <div class="padding-chapter">
               <div class="padding-komik">
-                <img class="img-responsive" ng-src="komik/oneshot/{{namaSiri}}/page{{$index+1}}.jpg">
+                <img class="img-responsive" ng-src="komik/oneshot/{{namaFolder}}/page{{$index+1}}.jpg">
               </div>
             </div>
           </div>

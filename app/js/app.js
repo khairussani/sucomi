@@ -5,7 +5,7 @@
         "mainControllers",
         'angulartics', 
         'angulartics.google.analytics',
-        'firebase'
+        'firebase',
         ]);
     
     app.config(function($routeProvider,$locationProvider,$analyticsProvider)
@@ -28,13 +28,13 @@
                 templateUrl:"templates/tim.html",
                 controller:"EditorListController"
             })
-            .when("/komik/aretis",
+            .when("/aretis",
             {
                 title: 'Komik',
                 templateUrl:"templates/list-komik-aretis.html",
                 controller:"KomikAretisListCtrl"
             })
-            .when('/komik/siri/:namaSiri', {
+            .when('/siri/:namaSiri', {
                 title: 'Comichat',
                 templateUrl: 'templates/komikAretis.html',
                 controller: 'KomikAretisDetailCtrl'
@@ -51,8 +51,18 @@
                 templateUrl:"templates/rumble.html",
                 controller:"RumbleListCtrl"
             })
-            .when('/rumble/oneshot/:namaSiri', {
-                title: 'Comichat',
+            .when("/rumble-keterangan",
+            {
+                title: 'Keterangan',
+                templateUrl:"templates/rumble-keterangan.html",
+            })
+            .when("/rumble-undi",
+            {
+                title: 'Undi',
+                templateUrl:"templates/rumble-undi.html",
+            })
+            .when('/rumble/oneshot/:namaFolder', {
+                title: 'Rumble',
                 templateUrl: 'templates/rumbleDetails.html',
                 controller: 'RumbleDetailCtrl'
             })

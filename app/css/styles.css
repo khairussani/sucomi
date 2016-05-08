@@ -280,12 +280,16 @@ ul > a> li
 {
 	width:176px;
 	height:248px;
-	border: 3px solid #E6E6E6;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	-webkit-transition: all 0.2s ease;
+  	-moz-transition: all 0.2s ease;
+  	-o-transition: all 0.2s ease;
+  	transition: all 0.2s ease;
 }
 
 .thumbnails-komik:hover
 {
-    border: 3px solid #ABC937;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }   
 
 .sinopsis
@@ -353,7 +357,7 @@ h1
 
 h4
 {
-	font-size: 20px;
+	font-size: 15px;
 }
 
 h4.title
@@ -363,7 +367,7 @@ h4.title
 
 p
 {
-	font-size: 15px;
+	font-size: 12px;
 }
 h4 + p
 {
@@ -403,7 +407,9 @@ p.p-title
 {
 	color:#333333;
 	background-color: #ABC937;
-	border-color: #ABC937; 
+	border-color: #ABC937;
+	border-radius: 20px;
+	padding: 6px 30px; 
 }
 
 .cover-top
@@ -584,4 +590,28 @@ a.rumble-href:hover
 .tab-selection-active > a.rumble-href:hover
 {
 	color:#ABC937;
+}
+
+
+.hidden-long-text
+{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tab-disabled
+{
+	cursor:not-allowed;
+}
+
+.menatal-static
+{
+	background-color: #e6e6e6;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1;
 }

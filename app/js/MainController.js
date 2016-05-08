@@ -16,6 +16,12 @@ mainControllers.controller('MainController', ['$scope', '$http',
     $http.get('data/komik/popular.json').success(function(data) {
       $scope.komikPopular= data;
     });
+    $http.get('data/komik/rekemen.json').success(function(data) {
+      $scope.komikRekemen= data;
+    });
+    $http.get('data/komik/terpanjang.json').success(function(data) {
+      $scope.komikTerpanjang= data;
+    });
   }]);
 
 mainControllers.controller('HeaderController', ['$scope', '$location',
@@ -113,7 +119,7 @@ mainControllers.controller('KomikRumbleListCtrl', ['$scope', '$routeParams', '$h
 mainControllers.controller('RumbleDetailCtrl', ['$scope', '$routeParams', '$http','$log',
   function($scope, $routeParams, $http,$log) 
   {
-    $scope.namaSiri = $routeParams.namaSiri;
+    $scope.namaFolder = $routeParams.namaFolder;
     $scope.episod = $routeParams.episod;
     $scope.totalPanel = 18;
 
