@@ -83,6 +83,16 @@
 					"id":"8"
 				}
 		}
+		,
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/forgia/ep09/cover.jpg",
+					"komikUrl":"ep09",
+					"totalPanel":"18",
+					"id":"9"
+				}
+		}
 		]
 		
 	}

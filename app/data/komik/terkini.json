@@ -2,25 +2,24 @@
 	"terkini" : 
 	[
 		{
-			"siri":"tuah",
-			"episod":"05",
-			"pengkarya":"E-One"
+			"siri":"super karut",
+			"episod":"01",
+			"pengkarya":"3-O"
 		},
 		{
-			"siri":"tamingsari",
-			"episod":"07",
-			"pengkarya":"Aniff Zazali"
+			"siri":"thunderboyz",
+			"episod":"01",
+			"pengkarya":"Keinz"
 		},
 		{
 			"siri":"forgia",
-			"episod":"08",
+			"episod":"09",
 			"pengkarya":"Sayuti"
 		},
 		{
-			"siri":"apa",
+			"siri":"tuah",
 			"episod":"05",
-			"pengkarya":"Inderawasih"
+			"pengkarya":"E-One"
 		}
-
 	]
 }

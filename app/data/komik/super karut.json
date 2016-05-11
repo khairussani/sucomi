@@ -1,0 +1,22 @@
+[
+	{
+		"namaSiri":"super karut",
+		"pelukis":"3-O",
+		"penulis":"3-O",
+		"genre":"aksi",
+		"sinopsis":"Loki mempunyai keupayaan memberi kuasa istimewa yang bersyarat kepada seseorang yang dia kehendaki.Suatu hari dia berikan suatu kuasa kepada Arif. Arif tidak mengetahui kuasa apa yang dikurniakan padanya sehingga berlaku suatu peristiwa yang menyebabkan dia secara tidak sengaja mengaktifkan kuasanya. Namun,bukan Arif sahaja punya kuasa istimewa diberikan Loki. Siapakah lagi yang dikurniakan kuasa istimewa tersebut?",
+		"chapters":
+		[
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/super karut/ep01/cover.jpg",
+					"komikUrl":"ep01",
+					"totalPanel": "18",
+					"id":"1"
+				}
+		}
+		]
+		
+	}
+]

@@ -39,6 +39,11 @@
                 templateUrl: 'templates/komikAretis.html',
                 controller: 'KomikAretisDetailCtrl'
             })
+            .when('/siri/keterangan/:namaSiri', {
+                title: 'Comichat',
+                templateUrl: 'templates/komikAretisKeterangan.html',
+                controller: 'KomikAretisDetailCtrl'
+            })
             .when("/komik/rumblers",
             {
                 title: 'Komik',

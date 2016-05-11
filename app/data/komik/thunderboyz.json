@@ -1,0 +1,22 @@
+[
+	{
+		"namaSiri":"thunderboyz",
+		"pelukis":"Keinz",
+		"penulis":"Keinz",
+		"genre":"aksi",
+		"sinopsis":"Thunderboyz ialah sebuah komik yang mengisahkan tentang seorang wira yang pernah menyelamatkan dunia suatu masa dahulu dan dilahirkan semula sebagai seorang remaja yang bernama Ken. Seorang peramal masa depan telah bertemu dengan Ken dan mengatakan bahawa dunia ini akan musnah tidak lama lgi. Ken mengambil keputusan untuk menghalang perkara tersebut daripada berlaku.",
+		"chapters":
+		[
+		{
+				"episod":
+				{
+					"imageUrl":"/komik/siri/thunderboyz/ep01/cover.jpg",
+					"komikUrl":"ep01",
+					"totalPanel": "18",
+					"id":"1"
+				}
+		}
+		]
+		
+	}
+]

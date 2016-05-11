@@ -615,3 +615,13 @@ a.rumble-href:hover
 	left: 0;
 	z-index: 1;
 }
+
+.next-episod
+{
+	background-color: #1A1A1A;
+}
+
+.padding-next-episod
+{
+	padding: 20px 0px;
+}
