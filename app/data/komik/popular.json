@@ -2,10 +2,6 @@
 	"popular" : 
 	[
 		{
-			"siri":"gangster",
-			"pengkarya":"Hanza"
-		},
-		{
 			"siri":"paradigma guru",
 			"pengkarya":"Pokcik Fingernailz"
 		},
@@ -16,6 +12,10 @@
 		{
 			"siri":"sirna gerhana",
 			"pengkarya":"Ploless"
+		},
+		{
+			"siri":"tuah",
+			"pengkarya":"E-One"
 		}
 
 	]
