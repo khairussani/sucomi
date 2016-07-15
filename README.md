@@ -1,3 +1,3 @@
-# supreme
-Supreme Comichat v2
+# Sucomi
+New branding website 
 
