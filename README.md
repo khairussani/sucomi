@@ -1,7 +1,7 @@
 # Sucomi
 New website using new branding for sucomi. 
 
-#Planning
+## Planning
 *Register/Login
 *Add komik
 *Like komik
@@ -14,5 +14,10 @@ New website using new branding for sucomi.
 * [Resources](#resources)
 * [Contributing to the Orchestra Platform](#contributing-to-the-orchestra-platform)
 * [License](#license)
+* 
+## License
+
+* The Laravel PHP Framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT) by [Taylor Otwell](https://github.com/taylorotwell).
+* The Orchestra Platform is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 
