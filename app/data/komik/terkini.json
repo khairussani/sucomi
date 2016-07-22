@@ -3,6 +3,11 @@
 	[
 		{
 			"siri":"super karut",
+			"episod":"03",
+			"pengkarya":"3-O"
+		},
+		{
+			"siri":"super karut",
 			"episod":"02",
 			"pengkarya":"3-O"
 		},
@@ -15,11 +20,6 @@
 			"siri":"super karut",
 			"episod":"01",
 			"pengkarya":"3-O"
-		},
-		{
-			"siri":"thunderboyz",
-			"episod":"01",
-			"pengkarya":"Keinz"
-		}
+		}	
 	]
 }

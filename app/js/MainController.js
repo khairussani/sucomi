@@ -11,7 +11,7 @@ mainControllers.controller('AretisListCtrl', ['$scope', '$http',
 mainControllers.controller('MainController', ['$scope', '$http',
   function($scope, $http) {
     $http.get('data/komik/terkini.json').success(function(data) {
-      $scope.komikTerkini = data;
+      $scope.komikTerkinis = data;
     });
     $http.get('data/komik/popular.json').success(function(data) {
       $scope.komikPopular= data;
