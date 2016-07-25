@@ -1,1 +1,1 @@
-node scripts\web.js
+node web.js

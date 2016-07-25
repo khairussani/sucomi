@@ -1,57 +1,116 @@
  <!-- Cover Photo-->
-  <header class="komik">
-    <div class="container">
-      <div class="row padding-top-100 white">
-        <div class="container">
-          <h1><b>TENTANG KAMI</b></h1>
-          <h4>Sekumpulan anak muda yang sedang berusaha membantu industri komik tempatan.</h4>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- END Cover Photo-->
+<img src="img/cover/cover-tiada.png" class="cover-top img-responsive"></img>
+<!-- End Cover Photo-->
 
-  <div class="row">
-    <div class="container">
-      <div class="col-md-4 col-md-offset-4 grey-font center">
-        <ul>     
-          <a href="#/mengenai"><li class="float-left "><b>Supreme</b></li></a>
-          <a href="#/tim"><li class="float-left active"><b>Tim</b></li></a>
-        </ul>
+<!-- Carousel -->
+<div class="container-fluid dark-grey-background">
+  <div class="col-md-4 col-md-offset-4">
+    <div class="row  text-center">
+      <h1 class="text-uppercase h1-title">Mengenai</h1>
+      <p class="text-uppercase p-title">Anak muda yang bermimipi namun kurang tidurnya.</p>
+    </div>
+  </div>
+</div>
+<!-- End Carousel -->
+
+<!-- Tab Selection -->
+<div class="container-fluid soft-grey-background">
+  <div class="container text-center">
+    <div class="col-md-4">
+      <div class="col-md-10 col-md-offset-1 tab-selection-active padding-tab-selection">
+        <a class="rumble-href" href="/tim">
+          <h4 class="text-uppercase">
+              Tim
+          </h4>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="col-md-10 col-md-offset-1 tab-selection-inactive padding-tab-selection">
+        <a class="rumble-href" href="/mengenai">
+          <h4 class="text-uppercase">
+              Sucomi
+          </h4>
+        </a>  
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="col-md-10 col-md-offset-1 tab-selection-inactive padding-tab-selection">
+        <a class="rumble-href" href="/penjenamaan">
+          <h4 class="text-uppercase">
+              Penjenamaan
+          </h4>
+        </a>
       </div>
     </div>
   </div>
-  <div>
+</div>
+<!-- End Tab Selection -->
+
+<!-- Content -->
+<div class="padding-section-rumble">
   <div class="container">
-    <h3 class="no-padding">Tim Supreme</h3>
-    <div style="padding-bottom: 20px;color: #999;">Kenali pengasas dan penggerak disebalik website Supreme Comichat.</div>
-    <div class="row" style="color: #999;">
-      <div class="col-md-3 col-sm-6 thumbnail-custom center">
-            <a href="https://www.facebook.com/muhammad.azamazri" target="_blank"><img  class="icon-tim" src="img/users/dp-azam.jpg" alt=""></a>
-            <div>
-              <h4 class="black">Azam Azri</h4>  
-              <p class="soft-grey-font">Pengasas + Pengurus + Pereka</p>
-            </div>
-      </div>
-      <div class="col-md-3 col-sm-6 thumbnail-custom center">
-            <a href="https://www.facebook.com/ridhwan28" target="_blank"><img class="icon-tim" src="img/users/dp-wanda.jpg" alt=""></a>
-            <div>
-              <h4 class="black">Ridhwan</h4>  
-              <p class="soft-grey-font">Programmer</p>
-            </div>
-      </div>
-    </div>
-  </div>
-  <div class="soft-grey">
-    <div class="container">
-        <h3 class="no-padding">Editor Supreme</h3>
-        <div style="padding-bottom: 20px;color: #999;">Siapa lagi yang akan membimbing pengkarya selain mereka?</div>
-        <div class="col-md-3 col-sm-6 thumbnail-custom center" ng-repeat="editor in listEditor">
-            <a href="{{editor.fbUrl}}" target="_blank"><img class="icon-tim" ng-src="img/users/{{editor.namaEditor}}.jpg" alt=""></a>
-            <div>
-              <h4 class="black">{{editor.namaEditor}}</h4>  
-            </div>
+    <div class="col-md-12 text-center" >
+      <p class="text-uppercase title-komik padding-title-komik">ORGANISASI</p>
+      <div class="col-md-3 col-md-offset-3">
+        <a href="https://www.facebook.com/muhammad.azamazri" target="_blank">
+          <img class="thumbnail-pengkarya" src="img/users/dp-azam.jpg" >
+          </img>
+        </a>
+        <div>
+          <h4 class="black">Azam Azri</h4>  
+          <p class="soft-grey-font">Pengasas + Pengurus + Pereka</p>
+              <a href="https://www.facebook.com/muhammad.azamazri" target="_blank">
+                <i class="fa fa-facebook-official fa-padding">
+                </i>
+              </a>
         </div>
+      </div>
+      <div class="col-md-3">
+        <a href="http://ridhwandaud.com/" target="_blank">
+          <img class="thumbnail-pengkarya" src="img/users/dp-wanda.jpg" >
+          </img>
+        </a>
+        <div>
+          <h4 class="black">Ridhwan Daud</h4>  
+          <p class="soft-grey-font">Programmer + Rakan Kongsi Sehati Sejiwa xD</p>
+              <a href="https://www.facebook.com/ridhwan28" target="_blank">
+                <i class="fa fa-facebook-official fa-padding">
+                </i>
+              </a>
+              <a href="http://ridhwandaud.com/" target="_blank"><i class="fa fa-globe fa-padding"></i></a>
+        </div>
+      </div>
     </div>
-  </div>   
   </div>
+</div>
+
+<hr class="margin-end-komik">
+
+<div class="padding-keterangan-rumble" ng-controller="EditorListController">
+  <div class="container">
+    <div class="col-md-12 text-center" >
+      <p class="text-uppercase title-komik padding-title-komik">EDITORIAL</p>
+      <div class="col-md-3 col-sm-6 thumbnail-custom center padding-pengkarya" ng-repeat="editor in listEditor">
+        <a href="{{editor.fbUrlPage}}" target="_blank">
+          <img class="thumbnail-pengkarya" ng-src="img/users/{{editor.namaEditor}}.jpg" >
+          </img>
+        </a>
+        <div>
+          <h4 class="black">{{editor.namaEditor}}</h4>  
+          <p class="soft-grey-font">Editor</p>
+
+              <a href="{{editor.fbUrl}}" target="_blank">
+                <i class="fa fa-facebook-official fa-padding">
+                </i>
+              </a>
+        </div>
+      </div>  
+    </div>
+  </div>
+</div>
+
+<!-- End Content -->
+<hr class="margin-end-komik">
+
+<!-- End Tim -->

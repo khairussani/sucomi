@@ -22,6 +22,11 @@
                 title: 'Mengenai',
                 templateUrl:"templates/mengenai.html"
             })
+            .when("/penjenamaan",
+            {
+                title: 'Mengenai',
+                templateUrl:"templates/penjenamaan.html"
+            })
             .when("/tim",
             {
                 title: 'Tim',
