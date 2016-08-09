@@ -106,7 +106,7 @@ mainControllers.controller('KomikRumbleListCtrl', ['$scope', '$routeParams', '$h
   function($scope, $routeParams, $http,$log,$location) 
   {
     
-    $http.get('data/komik/rumble.json').success(function(data) 
+    $http.get('data/komik/rumble-may.json').success(function(data) 
     {
       $scope.siriRumble = data;
     });
